@@ -76,8 +76,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
-  padding: 0 20px;
-  height: 100px;
+  height: 106px;
   background-color: #107898;
 }
 .full {
@@ -105,9 +104,14 @@ img{
   width: 100%;
 }
 @media (min-width: 768px) { 
-
-.container {
-   display: flex;
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container{
+   display:flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
@@ -144,9 +148,10 @@ p{
   }
   
 .layout-photo{
+  float: right;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: flex-end;
+  align-items: flex-start;
   width: 300px;
   padding: 10px;
 }
