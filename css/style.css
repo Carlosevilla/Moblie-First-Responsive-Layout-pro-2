@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -9,7 +9,7 @@
   flex-direction: column;
   max-width: 1100px;
   padding: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 .col {
   margin: 10px;
@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: black;
   background-color:white;
 }
@@ -37,7 +37,7 @@ a {
   color: whitesmoke;
   }
 nav {
-  font-family: "Roboto", Arial, Verdana;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   letter-spacing: .05em;
   background-color: #829356;
